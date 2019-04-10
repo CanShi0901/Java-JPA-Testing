@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="1.531" tests="13" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\shican\Google Drive\Can\Computer Programmer\Semester 4\CST8277 Enterprise Application Programming\Assignment 3\assignment3-starter\target\test-classes;C:\Users\shican\Google Drive\Can\Computer Programmer\Semester 4\CST8277 Enterprise Application Programming\Assignment 3\assignment3-starter\target\classes;C:\Users\shican\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\shican\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\shican\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\eclipselink\2.7.3\eclipselink-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\shican\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\shican\.m2\repository\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;C:\Users\shican\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.3\org.eclipse.persistence.jpa.modelgen.processor-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.3\org.eclipse.persistence.core-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.3\org.eclipse.persistence.asm-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.3\org.eclipse.persistence.jpa-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.3\org.eclipse.persistence.antlr-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.3\org.eclipse.persistence.jpa.jpql-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.extension\2.7.3\org.eclipse.persistence.extension-2.7.3.jar;C:\Users\shican\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\shican\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\shican\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.8.0_192\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\shican\AppData\Local\Temp\surefire8504174539828587229\surefirebooter8929797996104193867.jar C:\Users\shican\AppData\Local\Temp\surefire8504174539828587229 2019-04-04T10-02-41_462-jvmRun1 surefire2364874803767325681tmp surefire_02237345574591253934tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\shican\Google Drive\Can\Computer Programmer\Semester 4\CST8277 Enterprise Application Programming\Assignment 3\assignment3-starter\target\test-classes;C:\Users\shican\Google Drive\Can\Computer Programmer\Semester 4\CST8277 Enterprise Application Programming\Assignment 3\assignment3-starter\target\classes;C:\Users\shican\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\shican\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\shican\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\eclipselink\2.7.3\eclipselink-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\commonj.sdo\2.1.1\commonj.sdo-2.1.1.jar;C:\Users\shican\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\shican\.m2\repository\javax\json\javax.json-api\1.1.2\javax.json-api-1.1.2.jar;C:\Users\shican\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.3\org.eclipse.persistence.jpa.modelgen.processor-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.3\org.eclipse.persistence.core-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.3\org.eclipse.persistence.asm-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.3\org.eclipse.persistence.jpa-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.3\org.eclipse.persistence.antlr-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.3\org.eclipse.persistence.jpa.jpql-2.7.3.jar;C:\Users\shican\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.extension\2.7.3\org.eclipse.persistence.extension-2.7.3.jar;C:\Users\shican\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\shican\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\shican\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\shican"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Java\jdk1.8.0_192\jre"/>
+    <property name="basedir" value="C:\Users\shican\Google Drive\Can\Computer Programmer\Semester 4\CST8277 Enterprise Application Programming\Assignment 3\assignment3-starter"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\shican\AppData\Local\Temp\surefire8504174539828587229\surefirebooter8929797996104193867.jar"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.8.0_192\jre\lib\resources.jar;C:\Java\jdk1.8.0_192\jre\lib\rt.jar;C:\Java\jdk1.8.0_192\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_192\jre\lib\jsse.jar;C:\Java\jdk1.8.0_192\jre\lib\jce.jar;C:\Java\jdk1.8.0_192\jre\lib\charsets.jar;C:\Java\jdk1.8.0_192\jre\lib\jfr.jar;C:\Java\jdk1.8.0_192\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_192-b12"/>
+    <property name="user.name" value="shican"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.8.0_192\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\shican\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\shican\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_192"/>
+    <property name="user.dir" value="C:\Users\shican\Google Drive\Can\Computer Programmer\Semester 4\CST8277 Enterprise Application Programming\Assignment 3\assignment3-starter"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Java\jdk1.8.0_192\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\shi00038\product\12.1.0\dbhome_1\bin;C:\Java\jdk1.8.0_192\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk-9.0.1\bin;C:\Program Files (x86)\Brackets\command;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\shican\apache-maven-3.5.3\bin;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\shican\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\shican\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.192-b12"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.8.0_192\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="test00_add_address" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.01"/>
+  <testcase name="test01_add_employee_with_persisted_address" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.005"/>
+  <testcase name="test02_add_employee_with_not_persisted_address" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.009"/>
+  <testcase name="test03_add_employee_without_address" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.014"/>
+  <testcase name="test04_delete_address_with_employee" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.16"/>
+  <testcase name="test05_delete_address_without_employee" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.009"/>
+  <testcase name="test06_delete_employee_with_address" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.01"/>
+  <testcase name="test07_find_address_by_employee" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.013"/>
+  <testcase name="test08_find_employee_by_address" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.004"/>
+  <testcase name="test09_one_address_for_two_employee" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.029"/>
+  <testcase name="test10_update_address_without_employee" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0"/>
+  <testcase name="test11_update_address_with_employee" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.004"/>
+  <testcase name="test12_update_employee_with_not_persisted_address" classname="com.algonquincollege.cst8277.models.EmployeeAddressTestSuite" time="0.025"/>
+</testsuite>
